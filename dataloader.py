@@ -169,9 +169,6 @@ class ImageDataset(Dataset):
             self.label_idx = label_idx
             self.root_dir = root_dir
         elif self.dataname == 'UTK':
-            # UTK 不需要 sens_idx/label_idx 来索引列号，因为我们已经
-            # DataFrame: ['filename','sens','label']
-            # 这里仍保留 sens_idx, label_idx 以保持脚本结构一致,但不会真正用到
             self.sens_idx = sens_idx
             self.label_idx = label_idx
             self.root_dir = root_dir
