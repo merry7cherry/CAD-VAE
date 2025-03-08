@@ -11,7 +11,6 @@ from torch.utils.data import Dataset, DataLoader
 import os
 from sklearn.model_selection import train_test_split
 
-min_max_scaler = MaxAbsScaler()
 
 kwargs = {"shuffle": True, "num_workers": 16, "pin_memory": True}
 
