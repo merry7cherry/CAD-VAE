@@ -23,7 +23,7 @@ print(torch.cuda.device_count())
 print(torch.version.cuda)
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--bs", type=int, default=250)
+parser.add_argument("--bs", type=int, default=350)
 parser.add_argument("--lr", type=float, default=1e-4)
 parser.add_argument("--epochs", type=int, default=400)
 parser.add_argument("--start_CMI_epoch", type=int, default=2)
