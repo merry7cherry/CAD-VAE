@@ -2,7 +2,7 @@
 CAD-VAE: Leveraging Correlation-Aware Latents for Comprehensive Fair Disentanglement
 
 ## Description of the repo
-Here is the code of CAD-VAE for ICCV 2025 submission. This repository contains the following files:
+Here is the code of CAD-VAE for AAAI 2026 submission. This repository contains the following files:
 
 ## CAD-VAE in CelebA dataset
 - train.py: This Python file is to train CAD-VAE on the CelebA dataset.
